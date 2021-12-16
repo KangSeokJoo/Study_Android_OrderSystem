@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Android App Project</string>
+    <string name="Input_ID">ID</string>
+    <string name="Num_Btn_0">0</string>
+    <string name="Num_Btn_1">1</string>
+    <string name="Num_Btn_2">2</string>
+    <string name="Num_Btn_3">3</string>
+    <string name="Num_Btn_4">4</string>
+    <string name="Num_Btn_5">5</string>
+    <string name="Num_Btn_6">6</string>
+    <string name="Num_Btn_7">7</string>
+    <string name="Num_Btn_8">8</string>
+    <string name="Num_Btn_9">9</string>
+    <string name="Num_Btn_enter">ENTER</string>
+    <string name="Num_Btn_del">정정</string>
+</resources>

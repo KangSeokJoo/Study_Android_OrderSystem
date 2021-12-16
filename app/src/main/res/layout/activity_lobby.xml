@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#ffd040"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_marginLeft="60dp"
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:src="@drawable/ico_logoleft"
+            android:scaleType="fitXY"
+            ></ImageView>
+
+        <ImageView
+            android:layout_width="850dp"
+            android:layout_height="150dp"
+            android:background="#ffd040"
+            android:scaleType="fitXY"
+            android:src="@drawable/img_logo_cu"></ImageView>
+    </LinearLayout>
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+    <ImageButton
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="10px"
+        android:layout_marginLeft="100px"
+        android:src="@drawable/ico_logout"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        android:onClick="Btn_Page"
+        android:id="@+id/logout"
+        android:layout_width="150dp"
+        android:layout_height="150dp">
+    </ImageButton>
+
+
+    <ImageButton
+        android:layout_marginTop="50dp"
+        android:id="@+id/meal"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="10px"
+        android:layout_marginRight="10px"
+        android:background="@android:color/transparent"
+        android:onClick="Btn_Page"
+        android:scaleType="fitCenter"
+        android:src="@drawable/icon_meal">
+    </ImageButton>
+
+    <ImageButton
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="10px"
+        android:layout_marginLeft="10px"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        android:src="@drawable/icon_live"
+        android:onClick="Btn_Page"
+        android:id="@+id/live"
+        android:layout_width="150dp"
+        android:layout_height="150dp">
+    </ImageButton>
+
+    <ImageButton
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="10px"
+        android:layout_marginLeft="10px"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        android:onClick="Btn_Page"
+        android:src="@drawable/icon_ramen"
+        android:id="@+id/ramen"
+        android:layout_width="150dp"
+        android:layout_height="150dp">
+    </ImageButton>
+
+    <ImageButton
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="10px"
+        android:layout_marginLeft="10px"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        android:src="@drawable/icon_ice"
+        android:onClick="Btn_Page"
+        android:id="@+id/ice"
+        android:layout_width="150dp"
+        android:layout_height="150dp">
+    </ImageButton>
+
+    <ImageButton
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="10px"
+        android:layout_marginLeft="10px"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        android:id="@+id/drink"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:onClick="Btn_Page"
+        android:src="@drawable/icon_drink">
+    </ImageButton>
+
+    <ImageButton
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="10px"
+        android:layout_marginLeft="10px"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        android:id="@+id/bread"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:onClick="Btn_Page"
+        android:src="@drawable/ico_snack">
+    </ImageButton>
+
+</LinearLayout>
+
+
+</LinearLayout>

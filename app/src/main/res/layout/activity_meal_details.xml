@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <ImageButton
+        android:background="@android:color/transparent"
+        android:src="@drawable/ico_back"
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:onClick="Btn_click"
+        >
+
+    </ImageButton>
+    <ImageView
+        android:layout_marginLeft="50px"
+        android:id="@+id/change_meal_img"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:scaleType="fitXY"
+        android:src="@drawable/meal_1">
+    </ImageView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        >
+        <TextView
+            android:layout_marginLeft="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="구매가"
+            android:textSize="40dp"
+            android:fontFamily="@font/bold">
+        </TextView>
+
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:id="@+id/DB_Data_Text5"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/bold"
+            android:textSize="40dp"
+            android:gravity="center"
+            android:text="0원"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginLeft="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:text="현재 재고"
+                android:textSize="40dp"
+
+                android:fontFamily="@font/bold">
+            </TextView>
+
+            <TextView
+                android:id="@+id/DB_Data_Text"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:text=""
+                android:gravity="center"
+                android:textSize="40dp"
+                android:fontFamily="@font/bold">
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:text="발주 수량"
+                android:textSize="40dp"
+                android:fontFamily="@font/bold">
+            </TextView>
+
+            <TextView
+                android:id="@+id/data_eps"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:text="0개"
+                android:gravity="center"
+                android:textSize="40dp"
+                android:fontFamily="@font/bold">
+            </TextView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <ImageButton
+            android:layout_marginBottom="10px"
+            android:background="@android:color/transparent"
+            android:onClick="Ip_spat"
+            android:id="@+id/btn_plus"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/up"
+            android:scaleType="fitEnd">
+        </ImageButton>
+
+        <ImageButton
+            android:scaleType="fitEnd"
+            android:background="@android:color/transparent"
+            android:onClick="Ip_spat"
+            android:id="@+id/btn_mono"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/down">
+        </ImageButton>
+
+    </LinearLayout>
+
+    <ImageButton
+        android:layout_marginLeft="50px"
+        android:id="@+id/Btn_sell"
+        android:layout_width="200dp"
+        android:layout_height="300dp"
+        android:background="@android:color/transparent"
+        android:fontFamily="@font/bold"
+        android:layout_gravity="center"
+        android:onClick="Btn_sell"
+        android:scaleType="fitXY"
+        android:src="@drawable/ico_cart"
+        android:text="장바구니"
+        ></ImageButton>
+
+</LinearLayout>

@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#ffd040">
+
+    <TextView
+        android:id="@+id/em_A3_TV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/bold"
+        android:gravity="left"
+        android:text="생필품코너"
+        android:textColor="#03A9F4"
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+
+    <HorizontalScrollView
+        android:id="@+id/ScrollView1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:onClick="Btn_Page"
+                android:src="@drawable/ico_list"
+                android:id="@+id/Page_Back"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="4dp"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:scaleType="centerCrop" />
+
+            <ImageButton
+                android:onClick="Btn_Page"
+                android:id="@+id/live_img_01"
+                android:src="@drawable/live_1"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="4dp"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:id="@+id/live_text_01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/bold"
+                android:text="0개"
+                android:textColor="#FB4E4E"
+                android:textSize="10sp" />
+
+
+            <ImageButton
+                android:onClick="Btn_Page"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:id="@+id/live_img_02"
+                android:src="@drawable/live_2"
+                android:scaleType="centerCrop"
+                android:background="#ffffff"
+                android:layout_marginTop="4dp"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:fontFamily="@font/bold"
+                android:id="@+id/live_text_02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="30dp"
+                android:text="0개"
+                android:textColor="#FB4E4E"
+                android:textSize="10sp"
+                android:layout_marginLeft="4dp" />
+
+
+            <ImageButton
+                android:onClick="Btn_Page"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:id="@+id/live_img_03"
+                android:src="@drawable/live_3"
+                android:scaleType="centerCrop"
+                android:background="#ffffff"
+                android:layout_marginTop="4dp"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:fontFamily="@font/bold"
+                android:id="@+id/live_text_03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="30dp"
+                android:text="0개"
+                android:textColor="#FB4E4E"
+                android:textSize="10sp"
+                android:layout_marginLeft="4dp" />
+
+
+            <ImageButton
+                android:id="@+id/live_img_04"
+                android:src="@drawable/live_4"
+                android:onClick="Btn_Page"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="4dp"
+                android:background="#ffffff"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:fontFamily="@font/bold"
+                android:id="@+id/live_text_04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="30dp"
+                android:text="0개"
+                android:textColor="#FB4E4E"
+                android:textSize="10sp"
+                android:layout_marginLeft="4dp" />
+
+            <ImageButton
+                android:onClick="Btn_Page"
+                android:id="@+id/live_img_05"
+                android:src="@drawable/live_5"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="4dp"
+                android:background="#ffffff"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:fontFamily="@font/bold"
+                android:id="@+id/live_text_05"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="30dp"
+                android:text="0개"
+                android:textColor="#FB4E4E"
+                android:textSize="10sp"
+                android:layout_marginLeft="4dp" />
+
+            <ImageButton
+                android:onClick="Btn_Page"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:id="@+id/live_img_06"
+                android:src="@drawable/live_6"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="4dp"
+                android:background="#ffffff"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:fontFamily="@font/bold"
+                android:id="@+id/live_text_06"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="30dp"
+                android:text="0개"
+                android:textColor="#FB4E4E"
+                android:textSize="10sp"
+                android:layout_marginLeft="4dp" />
+
+            <ImageButton
+                android:onClick="Btn_Page"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:id="@+id/live_img_07"
+                android:src="@drawable/live_7"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="4dp"
+                android:background="#ffffff"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:fontFamily="@font/bold"
+                android:id="@+id/live_text_07"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="30dp"
+                android:text="0개"
+                android:textColor="#FB4E4E"
+                android:textSize="10sp"
+                android:layout_marginLeft="4dp" />
+
+            <ImageButton
+                android:onClick="Btn_Page"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:id="@+id/live_img_08"
+                android:src="@drawable/live_8"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="4dp"
+                android:background="#ffffff"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:fontFamily="@font/bold"
+                android:id="@+id/live_text_08"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="30dp"
+                android:text="0개"
+                android:textColor="#FB4E4E"
+                android:textSize="10sp"
+                android:layout_marginLeft="4dp" />
+
+
+            <ImageButton
+                android:onClick="Btn_Page"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:id="@+id/live_img_09"
+                android:src="@drawable/live_9"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="4dp"
+                android:background="#ffffff"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:fontFamily="@font/bold"
+                android:id="@+id/live_text_09"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="30dp"
+                android:text="0개"
+                android:textColor="#FB4E4E"
+                android:textSize="10sp"
+                android:layout_marginLeft="4dp" />
+
+
+            <ImageButton
+                android:onClick="Btn_Page"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:id="@+id/live_img_10"
+                android:src="@drawable/live_10"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="4dp"
+                android:background="#ffffff"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:fontFamily="@font/bold"
+                android:id="@+id/live_text_10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="30dp"
+                android:text="0개"
+                android:textColor="#FB4E4E"
+                android:textSize="10sp"
+                android:layout_marginLeft="4dp" />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+            <HorizontalScrollView
+                android:id="@+id/ScrollView2"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+            <ImageButton
+                android:onClick="Btn_Page"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:id="@+id/live_img_11"
+                android:src="@drawable/live_11"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="15dp"
+                android:background="#ffffff"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:fontFamily="@font/bold"
+                android:id="@+id/live_text_11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="30dp"
+                android:text="0개"
+                android:textColor="#FB4E4E"
+                android:textSize="10sp"
+                android:layout_marginLeft="4dp" />
+
+            <ImageButton
+                android:onClick="Btn_Page"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:id="@+id/live_img_12"
+                android:src="@drawable/live_12"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="15dp"
+                android:background="#ffffff"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:fontFamily="@font/bold"
+                android:id="@+id/live_text_12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="30dp"
+                android:text="0개"
+                android:textColor="#FB4E4E"
+                android:textSize="10sp"
+                android:layout_marginLeft="4dp" />
+
+            <ImageButton
+                android:onClick="Btn_Page"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:id="@+id/live_img_13"
+                android:src="@drawable/live_13"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="15dp"
+                android:background="#ffffff"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:fontFamily="@font/bold"
+                android:id="@+id/live_text_13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="30dp"
+                android:text="0개"
+                android:textColor="#FB4E4E"
+                android:textSize="10sp"
+                android:layout_marginLeft="4dp" />
+
+            <ImageButton
+                android:onClick="Btn_Page"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:id="@+id/live_img_14"
+                android:src="@drawable/live_14"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="15dp"
+                android:background="#ffffff"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:fontFamily="@font/bold"
+                android:id="@+id/live_text_14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="30dp"
+                android:text="0개"
+                android:textColor="#FB4E4E"
+                android:textSize="10sp"
+                android:layout_marginLeft="4dp" />
+
+            <ImageButton
+                android:onClick="Btn_Page"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:id="@+id/live_img_15"
+                android:src="@drawable/live_15"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="15dp"
+                android:background="#ffffff"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:fontFamily="@font/bold"
+                android:id="@+id/live_text_15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="30dp"
+                android:text="0개"
+                android:textColor="#FB4E4E"
+                android:textSize="10sp"
+                android:layout_marginLeft="4dp" />
+
+            <ImageButton
+                android:onClick="Btn_Page"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:id="@+id/live_img_16"
+                android:src="@drawable/live_10"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="15dp"
+                android:background="#ffffff"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:fontFamily="@font/bold"
+                android:id="@+id/live_text_16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="30dp"
+                android:text="0개"
+                android:textColor="#FB4E4E"
+                android:textSize="10sp"
+                android:layout_marginLeft="4dp" />
+
+            <ImageButton
+                android:onClick="Btn_Page"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:id="@+id/live_img_17"
+                android:src="@drawable/live_17"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="15dp"
+                android:background="#ffffff"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:fontFamily="@font/bold"
+                android:id="@+id/live_text_17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="30dp"
+                android:text="0개"
+                android:textColor="#FB4E4E"
+                android:textSize="10sp"
+                android:layout_marginLeft="4dp" />
+
+            <ImageButton
+                android:onClick="Btn_Page"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:id="@+id/live_img_18"
+                android:src="@drawable/live_18"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="15dp"
+                android:background="#ffffff"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:fontFamily="@font/bold"
+                android:id="@+id/live_text_18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="30dp"
+                android:text="0개"
+                android:textColor="#FB4E4E"
+                android:textSize="10sp"
+                android:layout_marginLeft="4dp" />
+
+            <ImageButton
+                android:onClick="Btn_Page"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:id="@+id/live_img_19"
+                android:src="@drawable/live_19"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="15dp"
+                android:background="#ffffff"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:fontFamily="@font/bold"
+                android:id="@+id/live_text_19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="30dp"
+                android:text="0개"
+                android:textColor="#FB4E4E"
+                android:textSize="10sp"
+                android:layout_marginLeft="4dp" />
+
+            <ImageButton
+                android:onClick="Btn_Page"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:id="@+id/live_img_20"
+                android:src="@drawable/live_20"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="15dp"
+                android:background="#ffffff"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:fontFamily="@font/bold"
+                android:id="@+id/live_text_20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="30dp"
+                android:text="0개"
+                android:textColor="#FB4E4E"
+                android:textSize="10sp"
+                android:layout_marginLeft="4dp" />
+        </LinearLayout>
+    </HorizontalScrollView>
+</LinearLayout>
